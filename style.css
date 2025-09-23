@@ -656,6 +656,13 @@ body {
 
 /* RESPONSIVIDADE */
 @media (max-width: 992px) {
+    #pec-now {
+        display: none;
+    }
+
+    #burger-hidden {
+        display: none;
+    }
     .nav-menu {
         position: fixed;
         top: 80px;
@@ -682,10 +689,25 @@ body {
 }
 
 @media (max-width: 768px) {
-    
+
+    #btn-inscrever {
+        width: 50%;
+    }
+
+    #btn-change {
+        height: 40px;
+    }
+    #ajust-btn {
+        font-size: 15px;
+    }
     .section-title { font-size: 2rem; }
-    .hero-title { font-size: 2.8rem; }
-    .hero-stats { flex-direction: column; gap: 20px; }
+    .hero-title { font-size: 2.8rem; 
+        margin-top: 170px;
+    }
+    .hero-stats { flex-direction: column; gap: 10px; 
+    height: 200px;
+    margin-bottom: 80px;
+    }
     .carousel-inner { flex-direction: column; }
     .newsletter-form { flex-direction: column; align-items: center; }
     .newsletter-form input { width: 100%; max-width: 400px; }
